@@ -13,4 +13,9 @@ public class IndexController {
         m.addAttribute("end", "Take care!");
         return "index";
     }
+
+    @GetMapping("/dispatcher/staticPage")
+    public String redirect() {
+        return "redirect:/pages/static.html";
+    }
 }

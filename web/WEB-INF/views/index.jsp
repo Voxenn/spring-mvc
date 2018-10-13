@@ -1,3 +1,5 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: Voxenn
@@ -7,11 +9,18 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<t:wrapper>
     <title>${title}</title>
-    <p>${attribute}</p>
-  </head>
-  <body>
+    <h1 align="center">${attribute}</h1>
+    <form:form method = "GET" action = "/dispatcher/staticPage">
+      <table>
+        <tr>
+          <td>
+            <input type = "submit" value = "Get HTML Page"/>
+          </td>
+        </tr>
+      </table>
+    </form:form>
   ${end}
-  </body>
+  </t:wrapper>
 </html>
