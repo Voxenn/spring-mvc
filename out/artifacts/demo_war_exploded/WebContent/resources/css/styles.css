@@ -1,0 +1,37 @@
+html, body {
+    background-color: #f8f9fa;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.openImage {
+    min-height: 500px;
+    background-image: url(/resources/images/open.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#aboutImage {
+    min-height: 425px;
+    background-image: url(/resources/images/vb.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+#aboutImage img {
+   max-height: 475px;
+    position:absolute;
+    bottom: 0px;
+    left:0;
+    right:0;
+    margin:0 auto
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

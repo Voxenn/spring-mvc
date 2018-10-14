@@ -1,5 +1,8 @@
+
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: Voxenn
@@ -11,16 +14,20 @@
 <html>
 <t:wrapper>
     <title>${title}</title>
-    <h1 align="center">${attribute}</h1>
-    <form:form method = "GET" action = "/dispatcher/staticPage">
-      <table>
-        <tr>
-          <td>
-            <input type = "submit" value = "Get HTML Page"/>
-          </td>
-        </tr>
-      </table>
-    </form:form>
-  ${end}
+    <h1 class="montserrat" align="center">${attribute}</h1>
+    <div >
+        <div class="openImage"></div>
+        <div class="openImage"></div>
+        <div class="openImage"></div>
+        <form:form method = "GET" action = "/dispatcher/staticPage">
+          <table>
+            <tr>
+              <td>
+                <input type = "submit" value = "Get HTML Page"/>
+              </td>
+            </tr>
+          </table>
+        </form:form>
+    </div>
   </t:wrapper>
 </html>
