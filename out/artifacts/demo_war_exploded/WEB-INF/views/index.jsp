@@ -17,17 +17,6 @@
     <h1 class="montserrat" align="center">${attribute}</h1>
     <div >
         <div class="openImage"></div>
-        <div class="openImage"></div>
-        <div class="openImage"></div>
-        <form:form method = "GET" action = "/dispatcher/staticPage">
-          <table>
-            <tr>
-              <td>
-                <input type = "submit" value = "Get HTML Page"/>
-              </td>
-            </tr>
-          </table>
-        </form:form>
     </div>
   </t:wrapper>
 </html>

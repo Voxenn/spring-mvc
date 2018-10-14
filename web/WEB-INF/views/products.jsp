@@ -24,13 +24,13 @@
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/bwatch.jpg" class="img-fluid mb-2"/>
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    Select from a sleek, minimalist background or a classic analog face with this exquisite black watch.
                 </t:product>
             </div>
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/wwatch.jpg" class="img-fluid mb-2"/>
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    If you prefer a more numerical approach, the second face is your choice over the timeless analog display.
                 </t:product>
             </div>
         </div>
@@ -38,19 +38,19 @@
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/bbag.jpg" class="img-fluid mb-2" />
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    This black leather bag is sturdy enough to carry all of your belongings wherever you decide to go.
                 </t:product>
             </div>
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/brbag.jpg" class="img-fluid mb-2" />
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    A simple, yet stylish clutch that you can carry with you on your evenings out.
                 </t:product>
             </div>
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/lppurse.jpg" class="img-fluid mb-2" />
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    This pink purse will match your best, and not so best, outfits for social gatherings.
                 </t:product>
             </div>
         </div>
@@ -58,22 +58,35 @@
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/nchead.jpg" class="img-fluid mb-2" />
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    These noise cancelling headphones have the ability to go wireless with built in Bluetooth technology.
                 </t:product>
             </div>
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/whead.jpg" class="img-fluid mb-2"/>
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    Excellent bass, plush cushioning, and a modern design are what incorporate these wireless headphones.
                 </t:product>
             </div>
             <div class="col-sm">
                 <img src="${pageContext.request.contextPath}resources/images/ihead.jpg" class="img-fluid mb-2"/>
                 <t:product>
-                    A sophisticated watch elegantly made from bamboo. Features a standard analog display with a classic clasp.
+                    If you're on the run, then these in-ear headphones are what you deserve.
                 </t:product>
             </div>
         </div>
     </div>
 </t:wrapper>
+<script>
+    window.onload = function() {
+        var list, targetList;
+        list = document.getElementsByClassName("collapse demo");
+        targetList = document.getElementsByClassName("btn btn-info");
+        for(var i = 0; i < list.length; i++ ){
+            list[i].setAttribute("id", "demo" + i);
+            targetList[i].setAttribute("data-target", "#" + list[i].getAttribute("id"));
+        }
+
+    }
+    document.on
+</script>
 </html>

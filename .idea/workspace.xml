@@ -7,35 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41e75652-2e9f-4ca8-9801-1bd9a2a1f05e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/open.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/footer.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/product.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/products.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/shipping.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/shopping.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WebContent/resources/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WebContent/resources/images/open.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/controllers/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/classes/controllers/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/pages/static.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/pages/static.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/tags/wrapper.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/tags/wrapper.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/controllers/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/static.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/static.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/wrapper.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/wrapper.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo_war_exploded/WEB-INF/views/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/product.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/product.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/products.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,32 +42,32 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="18" />
+          <entry key="java" value="19" />
           <entry key="jpg" value="1" />
-          <entry key="jsp" value="15" />
+          <entry key="jsp" value="16" />
           <entry key="tag" value="5" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="18" />
-          <entry key="JSP" value="20" />
+          <entry key="JAVA" value="19" />
+          <entry key="JSP" value="21" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
@@ -99,8 +76,8 @@
           <entry key="css" value="268" />
           <entry key="html" value="98" />
           <entry key="java" value="764" />
-          <entry key="jsp" value="1153" />
-          <entry key="tag" value="549" />
+          <entry key="jsp" value="2325" />
+          <entry key="tag" value="688" />
           <entry key="xml" value="175" />
         </counts>
       </usages-collector>
@@ -109,7 +86,7 @@
           <entry key="CSS" value="268" />
           <entry key="HTML" value="98" />
           <entry key="JAVA" value="764" />
-          <entry key="JSP" value="1702" />
+          <entry key="JSP" value="3013" />
           <entry key="XML" value="175" />
         </counts>
       </usages-collector>
@@ -135,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/products.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-358">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="902">
+              <caret line="72" column="92" selection-start-line="72" selection-start-column="92" selection-end-line="72" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -148,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -156,8 +133,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/product.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WebContent/resources/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -199,13 +194,13 @@
         <option value="$PROJECT_DIR$/src/controllers/IndexController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/about.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tags/footer.tag" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tags/wrapper.tag" />
         <option value="$PROJECT_DIR$/web/WebContent/resources/css/styles.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/shipping.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/product.tag" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/products.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/tags/product.tag" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
       </list>
     </option>
   </component>
@@ -234,7 +229,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="792" />
+    <option name="x" value="791" />
     <option name="y" value="-20" />
     <option name="width" value="2580" />
     <option name="height" value="1460" />
@@ -267,8 +262,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,7 +326,29 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -350,7 +367,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539546151887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539559185736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -538,11 +555,12 @@
       <workItem from="1539446050171" duration="14547000" />
       <workItem from="1539529322564" duration="13392000" />
       <workItem from="1539544897921" duration="1292000" />
+      <workItem from="1539555253788" duration="3929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36550000" />
+    <option name="totallyTimeSpent" value="40479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +574,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1166" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25824177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26073927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,7 +584,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32720232" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32720232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,13 +643,6 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WebContent/resources/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/footer.tag">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -649,38 +660,10 @@
     <entry file="file://$PROJECT_DIR$/demo.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/shipping.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/wrapper.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/product.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -714,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AboutController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -734,6 +707,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/wrapper.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -741,10 +728,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/products.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="902">
+          <caret line="72" column="92" selection-start-line="72" selection-start-column="92" selection-end-line="72" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/product.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WebContent/resources/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
