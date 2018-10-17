@@ -5,7 +5,7 @@
          version="4.0">
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>/WEB-INF/applicationContext.xml</param-value>
+        <param-value>WEB-INF/applicationContext.xml</param-value>
     </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -18,5 +18,15 @@
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CartController</servlet-name>
+        <servlet-class>controllers.CartController</servlet-class>
+    </servlet>
+
+    <!-- Define the Manager Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>CartController</servlet-name>
+        <url-pattern>/servlet/*</url-pattern>
     </servlet-mapping>
 </web-app>

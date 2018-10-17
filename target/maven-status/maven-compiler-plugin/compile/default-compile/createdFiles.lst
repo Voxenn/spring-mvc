@@ -1,6 +1,6 @@
 launch\Main.class
 controllers\ShippingController.class
 controllers\ProductsController.class
+controllers\AboutController.class
 controllers\ShoppingController.class
 controllers\IndexController.class
-controllers\AboutController.class

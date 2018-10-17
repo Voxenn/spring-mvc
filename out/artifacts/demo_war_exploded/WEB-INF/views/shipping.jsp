@@ -12,5 +12,6 @@
     <title>${title}</title>
 </head>
 <t:wrapper>
+    Test
 </t:wrapper>
 </html>
