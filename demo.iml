@@ -58,15 +58,6 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util:8.5.34" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jasper-el:8.5.34" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.5.34" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$USER_HOME$/Documents/Tomcat/JSTL Jars" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/Documents/Tomcat/JSTL Jars" recursive="false" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="javax.servlet:jstl:1.2" level="project" />
   </component>
 </module>

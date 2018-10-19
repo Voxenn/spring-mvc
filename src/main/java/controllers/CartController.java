@@ -28,7 +28,7 @@ public class CartController extends HttpServlet {
                 deleteCart(request);
             }
         }
-        response.sendRedirect("../ShoppingCart.jsp");
+        response.sendRedirect("../shopping");
     }
 
     protected void deleteCart(HttpServletRequest request) {
