@@ -6,6 +6,5 @@ controllers\ProductsController.class
 beans\CartItemBean.class
 controllers\CartController.class
 controllers\AboutController.class
-controllers\TestController.class
 controllers\ShoppingController.class
 controllers\IndexController.class
