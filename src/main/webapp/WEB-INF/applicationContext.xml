@@ -2,5 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Initialization for data source -->
+    <bean id="dataSource"
+          class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name = "driverClassName" value = "com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        <property name = "url" value = "jdbc:sqlserver://localhost:1433"/>
+        <property name = "username" value = "voxenn"/>
+        <property name = "password" value = "Cf-?=X=2VF66AGyPXA"/>
+    </bean>
 
 </beans>

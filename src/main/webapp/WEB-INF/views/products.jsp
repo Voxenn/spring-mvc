@@ -15,55 +15,19 @@
     <title>${title}</title>
 
 </head>
-<c:set var="count" value="0" scope="page"/>
-<%
-    ResultSet result = null;
-    String[] description = new String[9];
-    String[] image = new String[9];
-    try {
-        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=Products;user=voxenn;password=Cf-?=X=2VF66AGyPXA";
-        Connection con = DriverManager.getConnection(connectionUrl);
-        String query = "SELECT * FROM dbo.Products";
-        Statement statement = con.createStatement();
-        result = statement.executeQuery(query);
-    } catch (Exception e) {
-        out.println("Exception" + e.getMessage());
-        e.printStackTrace();
-    };
-    while(result.next()) {
-        int rs = 0;
-        description[rs] = result.getString("ProductDescription");
-        image[rs] = result.getString("ProductImage");
-%>
-        <c:set var="productID"><%=result.getString("ProductID")%></c:set>
-        <c:set var="description"><%=result.getString("ProductDescription")%></c:set>
-        <c:set var="price"><%=result.getString("Price")%></c:set>
-        <c:set var="image"><%=result.getString("ProductImage")%></c:set>
-        <div class="col-sm">
-        <img src="${pageContext.request.contextPath}resources/images/${image}" class="img-fluid mb-2" />
-        <c:set var="description"><%=result.getString("ProductDescription")%></c:set>
-        <t:product>
-            ${description}
-        </t:product>
-        </div>
-
-<%
-    rs++;
-    }%>
 <t:wrapper>
+    <c:set var="counter" value="0" scope="page"/>
     <div class="container">
         <c:forEach var = "i" begin = "1" end = "3">
             <div class="row m-3 p-2">
-                <c:forEach var = "j" begin = "1" end = "3" varStatus="loop">
-                    <c:set var="counter" value="0" scope="page"/>
+                <c:forEach var = "prod" items = "${productList}" begin = "${counter}" end = "${counter + 2}" varStatus="loop">
                     <div class="col-sm">
-                        <img src="${pageContext.request.contextPath}resources/images/${image}" class="img-fluid mb-2" />
+                        <img src="${pageContext.request.contextPath}resources/images/${prod.productImage}" class="img-fluid mb-2" />
                         <t:product>
-                            <c:out value="description"/>
-                            ${description}
+                            ${prod.productDescription}
                         </t:product>
                     </div>
+                    <c:set var="counter" value="${counter + 1}"/>
                 </c:forEach>
             </div>
         </c:forEach>

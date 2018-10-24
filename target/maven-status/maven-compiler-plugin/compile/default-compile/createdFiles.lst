@@ -1,10 +1,14 @@
-launch\Main.class
 beans\CartBean.class
 controllers\ShippingController.class
-controllers\PaymentController.class
+models\ProductJDBC.class
 controllers\ProductsController.class
+controllers\ShoppingController.class
+launch\Main.class
+controllers\PaymentController.class
+models\ProductMapper.class
 beans\CartItemBean.class
 controllers\CartController.class
 controllers\AboutController.class
-controllers\ShoppingController.class
+models\Products.class
 controllers\IndexController.class
+models\ProductDAO.class
