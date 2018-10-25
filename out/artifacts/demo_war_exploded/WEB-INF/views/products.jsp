@@ -23,9 +23,23 @@
                 <c:forEach var = "prod" items = "${productList}" begin = "${counter}" end = "${counter + 2}" varStatus="loop">
                     <div class="col-sm">
                         <img src="${pageContext.request.contextPath}resources/images/${prod.productImage}" class="img-fluid mb-2" />
-                        <t:product>
-                            ${prod.productDescription}
-                        </t:product>
+                        <div>
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Item Description</button>
+                            <form class="float-right" name="modelDetail1" method="POST" action="servlet/CartController">
+                                <c:set var="image" value="${prod.productImage}"/>
+                                <c:set var="price" value="${prod.productPrice}"/>
+                                <c:set var="description" value="${prod.productDescription}"/>
+                                <input type="hidden" name="image" value="${image}">
+                                <input type="hidden" name="description" value="${description}">
+                                <input type="hidden" name="quantity" value="1" >
+                                <input type="hidden" name="price" value="${price}">
+                                <input type="hidden" name="action" value="add">
+                                <button class="btn btn-danger" type="submit"  data-target="" value="Add To Cart">Add To Cart</button>
+                            </form>
+                        </div>
+                        <div id="" class="collapse demo">
+                                ${prod.productDescription}
+                        </div>
                     </div>
                     <c:set var="counter" value="${counter + 1}"/>
                 </c:forEach>

@@ -67,6 +67,7 @@ public class CartController extends HttpServlet {
         String strDescription = request.getParameter("description");
         String strPrice = request.getParameter("price");
         String strQuantity = request.getParameter("quantity");
+        String strImage = request.getParameter("image");
 
         CartBean cartBean = null;
 
@@ -79,7 +80,7 @@ public class CartController extends HttpServlet {
             session.setAttribute("cart", cartBean);
         }
 
-        cartBean.addCartItem(strModelNo, strDescription, strPrice, strQuantity);
+        cartBean.addCartItem(strModelNo, strDescription, strPrice, strQuantity, strImage);
     }
 
 }

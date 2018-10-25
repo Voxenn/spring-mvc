@@ -3,6 +3,7 @@ package beans;
 public class CartItemBean {
     private String strPartNumber;
     private String strModelDescription;
+    private String strProductImage;
     private double dblUnitCost;
     private int iQuantity;
     private double dblTotalCost;
@@ -36,5 +37,11 @@ public class CartItemBean {
     }
     public void setTotalCost(double dblTotalCost) {
         this.dblTotalCost = dblTotalCost;
+    }
+    public String getImage() {
+        return strProductImage;
+    }
+    public void setImage(String strProductImage) {
+        this.strProductImage = strProductImage;
     }
 }

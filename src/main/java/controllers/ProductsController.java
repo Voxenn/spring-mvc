@@ -21,6 +21,10 @@ public class ProductsController {
     @RequestMapping("/products")
     public String products(Model m) {
         m.addAttribute("title", "Products");
+        /**
+         * Connect to the database here. Once connected,
+         * add the products into a List of Products.
+         */
         try {
             ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
             ProductJDBC productJDBC =

@@ -14,20 +14,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        final String pass = "Cf-?=X=2VF66AGyPXA";
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=Products;user=voxenn;password=" + pass;
         String webappDirLocation = "src/main/webapp/";
-
-        /*try {
-            // Load SQL Server JDBC driver and establish connection.
-            System.out.print("Connecting to SQL Server ... ");
-            try (Connection connection = DriverManager.getConnection(connectionUrl)) {
-                System.out.println("Done.");
-            }
-        } catch (Exception e) {
-            System.out.println();
-            e.printStackTrace();
-        }*/
         Tomcat tomcat = new Tomcat();
 
         //The port that we should run on can be set into an environment variable
